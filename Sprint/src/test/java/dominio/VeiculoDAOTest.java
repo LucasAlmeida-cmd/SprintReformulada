@@ -1,8 +1,8 @@
 package dominio;
 
 import org.junit.jupiter.api.Test;
-import quantumleap.banco.ClienteDAO;
-import quantumleap.banco.VeiculoDAO;
+import quantumleap.infra.ClienteDAO;
+import quantumleap.infra.VeiculoDAO;
 import quantumleap.dominio.Cliente;
 import quantumleap.dominio.DateUtil;
 import quantumleap.dominio.Veiculo;

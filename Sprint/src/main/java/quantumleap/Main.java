@@ -3,16 +3,9 @@ package quantumleap;
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
 import org.glassfish.jersey.server.ResourceConfig;
-import quantumleap.banco.*;
-import quantumleap.dominio.*;
 
 import java.io.IOException;
 import java.net.URI;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Scanner;
 
 public class Main {
 //    public static void main(String[] args) throws ParseException {

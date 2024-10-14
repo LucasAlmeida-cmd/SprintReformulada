@@ -1,7 +1,7 @@
 package dominio;
 
 import org.junit.jupiter.api.Test;
-import quantumleap.banco.ConnectionFactory;
+import quantumleap.infra.ConnectionFactory;
 
 import java.sql.Connection;
 

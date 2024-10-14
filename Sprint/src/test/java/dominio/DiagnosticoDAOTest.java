@@ -1,7 +1,7 @@
 package dominio;
 
 import org.junit.jupiter.api.Test;
-import quantumleap.banco.*;
+import quantumleap.infra.*;
 import quantumleap.dominio.*;
 
 import java.text.ParseException;
@@ -61,11 +61,8 @@ public class DiagnosticoDAOTest {
         Veiculo ve1 = new Veiculo("vw", "123", DateUtil.parseYear("2002"), 123, "1233");
         veiculoDAO.adicionarVeiculo(cliente, ve1);
 
-        Peca peca = new Peca("Peça", 100, "teste", "teste");
 
-
-        pecaDAO.adicionaPeca(peca);
-        Long idPecaExistente = 3L;
+        Long idPecaExistente = 1L;
         Peca pecaExistente2 = pecaDAO.buscarPecaPorId(idPecaExistente);
 
         Guincho guincho2 = new Guincho("Guinc3", 1000, 100000);

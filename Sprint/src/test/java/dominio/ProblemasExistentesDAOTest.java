@@ -1,8 +1,8 @@
 package dominio;
 
 import org.junit.jupiter.api.Test;
-import quantumleap.banco.PecaDAO;
-import quantumleap.banco.ProblemasExistentesDAO;
+import quantumleap.infra.PecaDAO;
+import quantumleap.infra.ProblemasExistentesDAO;
 import quantumleap.dominio.Peca;
 import quantumleap.dominio.ProblemasExistentes;
 

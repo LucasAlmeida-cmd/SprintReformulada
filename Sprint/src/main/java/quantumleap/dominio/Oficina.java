@@ -1,10 +1,16 @@
 package quantumleap.dominio;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Oficina {
     private long idOficina;
+    @JsonProperty
     private String nomeOficina;
+    @JsonProperty
     private String localizacaoOficina;
+    @JsonProperty
     private String telefoneOficina;
+    @JsonProperty
     private String emailOficina;
 
     public Oficina(String nomeOficina, String localizacaoOficina, String telefoneOficina, String emailOficina) {
@@ -14,6 +20,8 @@ public class Oficina {
         this.emailOficina = emailOficina;
 
     }
+
+    public Oficina(){}
 
     public void setIdOficina(long idOficina) {
         this.idOficina = idOficina;

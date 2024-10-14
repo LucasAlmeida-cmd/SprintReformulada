@@ -1,10 +1,16 @@
 package quantumleap.dominio;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Peca {
     private Long idPeca;
+    @JsonProperty
     private String nomePeca;
+    @JsonProperty
     private double precoPeca;
+    @JsonProperty
     private String marcaPeca;
+    @JsonProperty
     private String modeloPeca;
 
 

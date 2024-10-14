@@ -2,8 +2,6 @@ package quantumleap.dominio;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.ArrayList;
-
 public class Cliente {
     private Long idCliente;
     @JsonProperty

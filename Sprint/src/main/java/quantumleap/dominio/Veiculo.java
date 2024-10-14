@@ -1,14 +1,22 @@
 package quantumleap.dominio;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.util.Date;
 
 public class Veiculo {
     private long idVeiculo;
+    @JsonProperty
     private String montadoraVeiculo;
+    @JsonProperty
     private String modeloVeiculo;
+    @JsonProperty
     private Date anoVeiculo;
+    @JsonProperty
     private double quantidadeQuilometros;
+    @JsonProperty
     private String placaVeiculo;
+    @JsonProperty
     private String nomeCliente;
 
     public Veiculo(String montadoraVeiculo, String modeloVeiculo, Date anoVeiculo, double quantidadeQuilometros, String placaVeiculo){

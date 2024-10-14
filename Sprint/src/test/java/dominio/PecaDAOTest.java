@@ -1,7 +1,7 @@
 package dominio;
 
 import org.junit.jupiter.api.Test;
-import quantumleap.banco.PecaDAO;
+import quantumleap.infra.PecaDAO;
 import quantumleap.dominio.Peca;
 
 import java.util.ArrayList;

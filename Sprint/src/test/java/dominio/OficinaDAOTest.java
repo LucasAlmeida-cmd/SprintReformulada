@@ -1,7 +1,7 @@
 package dominio;
 
 import org.junit.jupiter.api.Test;
-import quantumleap.banco.OficinaDAO;
+import quantumleap.infra.OficinaDAO;
 import quantumleap.dominio.Oficina;
 
 import java.util.ArrayList;
@@ -61,6 +61,7 @@ public class OficinaDAOTest {
         ArrayList<Oficina> oficinas = (ArrayList<Oficina>) dao.listarOficinas();
 
         for (Oficina oficina : oficinas) {
+            System.out.println("ID: " +oficina.getIdOficina());
             System.out.println("Nome: " + oficina.getNomeOficina());
             System.out.println("Localização: " + oficina.getLocalizacaoOficina());
             System.out.println("Telefone: " + oficina.getTelefoneOficina());

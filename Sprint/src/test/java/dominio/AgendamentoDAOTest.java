@@ -1,7 +1,7 @@
 package dominio;
 
 import org.junit.jupiter.api.Test;
-import quantumleap.banco.*;
+import quantumleap.infra.*;
 import quantumleap.dominio.*;
 
 import java.text.ParseException;
